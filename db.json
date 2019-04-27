@@ -1,0 +1,79 @@
+{
+  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
+  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
+  "profile": { "name": "typicode" },
+  "bares": [
+    {
+      "nombre": "bare de pepe",
+      "fotos": "https://picsum.photos/250/150",
+      "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco ",
+      "telefono": "3331204177"
+    },
+    {
+      "nombre": "bare de Lucia",
+      "fotos": "https://picsum.photos/300/200",
+      "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco ",
+      "telefono": "3336704177"
+    },
+    {
+      "nombre": "bare de Antonio",
+      "fotos": "https://picsum.photos/200/110",
+      "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco ",
+      "telefono": "3334564177"
+    },
+    {
+      "nombre": "bare de la diabla",
+      "fotos": "https://picsum.photos/207/106",
+      "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco ",
+      "telefono": "3333624277"
+    },
+    {
+      "nombre": "bare de la diabla",
+      "fotos": "https://picsum.photos/205/104",
+      "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco ",
+      "telefono": "3333624277"
+    },
+    {
+      "nombre": "bare de la diabla",
+      "fotos": "https://picsum.photos/203/102",
+      "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco ",
+      "telefono": "3333624277"
+    },
+    {
+      "nombre": "bare de la diabla",
+      "fotos": "https://picsum.photos/202/110",
+      "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco ",
+      "telefono": "3333624277"
+    },
+    {
+      "nombre": "bare de la diabla",
+      "fotos": "https://picsum.photos/209/100",
+      "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco ",
+      "telefono": "3333624277"
+    },
+    {
+      "nombre": "bare de la diabla",
+      "fotos": "https://picsum.photos/207/102",
+      "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco ",
+      "telefono": "3333624277"
+    },
+    {
+      "nombre": "bare de la diabla",
+      "fotos": "https://picsum.photos/204/103",
+      "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco ",
+      "telefono": "3333624277"
+    },
+    {
+      "nombre": "bare de la diabla",
+      "fotos": "https://picsum.photos/220/110",
+      "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco ",
+      "telefono": "3333624277"
+    },
+    {
+      "nombre": "bare de la diabla",
+      "fotos": "https://picsum.photos/210/110",
+      "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco ",
+      "telefono": "3333624277"
+    }
+  ]
+}

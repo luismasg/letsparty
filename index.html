@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+      body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+      header {
+        background-color: #666;
+        padding: 20px;
+        color: #eee;
+        font-family: "Permanent Marker", cursive;
+      }
+      header > h1 {
+        color: #c79a92;
+      }
+      main {
+          padding:20px;
+        flex: 1;
+        display:grid;
+        grid-template:1fr/repeat(4,1fr);
+        grid-gap:20px;
+      }
+      
+      footer {
+        background-color: #666;
+        padding: 20px;
+        font-family: "Permanent Marker", cursive;
+      }
+      footer p {
+        color: #eee;
+      }
+      footer > ul {
+        list-style: none;
+      }
+      footer > ul > li {
+        display: inline-block;
+        padding: 0 10px;
+      }
+      footer li:hover {
+        background-color: #c7c7c7;
+      }
+    </style>
+  </head>
+  <body>
+    <template id="card">
+            <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary llamar">llamar</a>
+                      <a href="#" class="btn btn-primary direccion">Direccion</a>
+                    </div>
+                  </div>
+    </template>
+
+    <header>
+      <h1>Let's party</h1>
+      <p>app demo para aprender a usar html con un backend correctamente</p>
+    </header>
+    <main class=""></main>
+    <footer>
+      <p>
+        Let's parrty es una projecto demo para aprender a usar java fulsltack y
+        mostarr contenido dinamico
+      </p>
+      <ul>
+        <li>Mara</li>
+        <li>Cabron 1</li>
+        <li>Cabron 2</li>
+        <li>Cabron 3</li>
+        <li>Cabron 4</li>
+      </ul>
+    </footer>
+    <script>
+      fetch("http://localhost:3000/bares")
+        .then(result => result.json())
+        .then(data => data.map(bar => {
+
+          let template = document.querySelector("#card"); // tomamos nuestra card que tenemso guardada
+          let main = document.querySelector("main");
+          let clone = document.importNode(card.content, true);
+          clone.querySelector(".card-text").textContent=bar.descripcion;
+          let image= clone.querySelector(".card-img-top");
+          image.src=bar.fotos;
+          let title = clone.querySelector(".card-title");
+          title.textContent = bar.nombre;
+
+          main.appendChild(clone);
+        }));
+    </script>
+  </body>
+</html>
